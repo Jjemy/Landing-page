@@ -157,7 +157,7 @@ class App extends React.Component {
       </section>
 
       <section id='about' className="about d-flex flex-column justify-content-between align-items-center bg-light w-100">
-        <div className='innerAbout d-flex flex-lg-row flex-column justify-content-between'>
+        <div id='innerAbout1' className='innerAbout d-flex flex-lg-row flex-column justify-content-between'>
           <div  className='text-div d-flex flex-column align-items-start wow fadeInLeft' data-wow-duration='2s' data-wow-delay='1s'>
             <div id='hr' className='my-5' />
             <h1 className='mb-4'>Quick & Easy <span className='small-span'>to Use Bootstrap Template</span></h1>
@@ -169,7 +169,7 @@ class App extends React.Component {
             <img className='topImg' src="img/about1.svg" alt="" />
           </div>
         </div>
-        <div className='innerAbout d-flex flex-lg-row flex-column justify-content-between'>
+        <div id='innerAbout2' className='innerAbout d-flex flex-lg-row flex-column justify-content-between'>
           <div id='imgs2' className="aboutImgs wow fadeInRight" data-wow-duration='2s' data-wow-delay='1s'>
             <img id='downImg2' src="img/about-shape-2.svg" alt="" />
             <img id='topImg2' className='topImg' src="img/about2.svg" alt="" />
@@ -181,7 +181,7 @@ class App extends React.Component {
             <button className='btn'>Try it Free</button>
           </div>
         </div>
-        <div className='innerAbout d-flex flex-lg-row flex-column justify-content-between'>
+        <div id='innerAbout3' className='innerAbout d-flex flex-lg-row flex-column justify-content-between'>
           <div className='text-div d-flex flex-column align-items-start wow fadeInLeft' data-wow-duration='2s' data-wow-delay='1s'> 
             <div id='hr' className='my-5' />
             <h1 className='mb-4'><span className='small-span'>Crafted for</span> SaaS, App and Software Landing Page</h1>
